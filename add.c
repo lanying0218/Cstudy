@@ -10,7 +10,7 @@ int main()
 
               max=a>b?a:b;
 
-        printf("%d\n",max);
+        printf("max=%d\n",max);
     
     return 0;
 
