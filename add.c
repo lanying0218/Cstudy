@@ -1,5 +1,5 @@
 /*比较两个数的大小*/
-include <stdio.h>
+#include <stdio.h>
 
 int main()
 
