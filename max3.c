@@ -6,17 +6,30 @@
 #include <stdio.h>
 
 int max3(int x,int y,int z)
+
 {
-        int u;
+  int u;
+        
         u = x>y?x:y;
+        
         u = u>z?u:z;
-        return (u);
+        
+  return (u);
+
 }
 
 int main()
+        
 {
-        int a,b,c,d;
+        
+  int a,b,c,d;
+        
         scanf("%d%d%d",&a,&b,&c);
-        d=max3(a,b,c);
+        
+              d=max3(a,b,c);
+        
         printf("max=%d\n",d);
+        
+  retrun 0;
+        
 }
