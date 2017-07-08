@@ -30,6 +30,6 @@ int main()
         
         printf("max=%d\n",d);
         
-  retrun 0;
+  return 0;
         
 }
